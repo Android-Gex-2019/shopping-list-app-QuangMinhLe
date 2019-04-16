@@ -1,4 +1,4 @@
-package me.quang.shoppingList;
+package ca.nbcc.shoppinglist;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
-    public static final String EXTRA_ITEMS = "me.quang.shoppingList.extra.ITEMS";
+    public static final String EXTRA_ITEMS = "ca.nbcc.shoppinglist.extra.ITEMS";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
